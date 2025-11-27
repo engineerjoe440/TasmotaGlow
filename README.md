@@ -11,3 +11,4 @@
 | PS1 | Mean Well IRM-10-12 | [DigiKey](https://www.digikey.com/en/products/detail/mean-well-usa-inc/IRM-10-12/7704653) |
 | Q1 | ONSEMI BUZ11 TO-220 NMOS | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/BUZ11-NR4941/1954150) |
 | Q2 | ONSEMI BUZ11 TO-220 NMOS | [DigiKey](https://www.digikey.com/en/products/detail/onsemi/BUZ11-NR4941/1954150) |
+| | Enclosure | [Amazon](https://a.co/d/7UIW7LF) |
