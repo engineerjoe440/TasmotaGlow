@@ -5,8 +5,8 @@
 	(uuid "e527151a-f266-49f9-aebd-640489ef4648")
 	(paper "A4")
 	(title_block
-		(title "TasmotaGeneric")
-		(date "2021-12-05")
+		(title "TasmotaGlow")
+		(date "2025-11-26")
 		(rev "0.1")
 		(company "Stanley Solutions - Joe Stanley")
 		(comment 1 "License: GPLv3.0")
@@ -344,6 +344,292 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Converter_ACDC:IRM-10-12"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "PS"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "IRM-10-12"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT"
+				(at 0 -8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "12V, 850mA, 10.2W, Isolated, AC-DC, 222A(IRM10)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Miniature Module-type Power Supply MeanWell"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Converter*ACDC*MeanWell*IRM*10*THT*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IRM-10-12_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.334 -0.635) (xy -2.794 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.064 0.635)
+					(mid -4.699 0.2495)
+					(end -5.334 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -4.064 0.635)
+					(mid -3.429 1.0072)
+					(end -2.794 0.635)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 5.08) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0.635) (xy 3.302 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.635) (xy 5.334 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0.635) (xy 4.318 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.826 0.635) (xy 5.334 0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IRM-10-12_1_1"
+				(pin power_in line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "AC/L"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "AC/N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "+Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "-Vo"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1239,16 +1525,22 @@
 		(uuid "1bf41d51-db17-4a26-9458-1e90d2221590")
 	)
 	(junction
+		(at 92.71 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "21434bd7-6b10-42ea-9509-1b896e9a4625")
+	)
+	(junction
 		(at 105.41 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37667c07-654f-4e1d-b553-10aaf12d5bff")
 	)
 	(junction
-		(at 92.71 104.14)
+		(at 217.17 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3f5e98a2-c95c-4c92-b838-5de7e09ac5f8")
+		(uuid "51513c5b-6e7c-452a-baed-41719e8130b2")
 	)
 	(junction
 		(at 130.81 101.6)
@@ -1257,10 +1549,10 @@
 		(uuid "5639a744-d16b-4d3d-b68a-9d5e5ac18f35")
 	)
 	(junction
-		(at 77.47 96.52)
+		(at 92.71 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "88abf6df-8453-417e-a69c-0c3c765cf29c")
+		(uuid "8ae1df32-7022-4b31-999f-4ea8b3bbd81e")
 	)
 	(junction
 		(at 222.25 105.41)
@@ -1275,28 +1567,22 @@
 		(uuid "9657b826-4982-4179-8075-ab5e211dbf39")
 	)
 	(junction
-		(at 92.71 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9e8a0ce6-9e9a-4665-b11b-30f2d6f835ec")
-	)
-	(junction
 		(at 186.69 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcb74164-3903-44c7-a5a8-d672d4551e05")
 	)
 	(junction
-		(at 118.11 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcce24ef-a5e5-46aa-a916-6f7ecbfa5399")
-	)
-	(junction
 		(at 118.11 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c00d70ff-54ea-498d-91aa-c929e9cc7597")
+	)
+	(junction
+		(at 92.71 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4b87051-3d04-4954-8fcf-3c122d2b9d12")
 	)
 	(junction
 		(at 186.69 116.84)
@@ -1335,6 +1621,16 @@
 			(type default)
 		)
 		(uuid "0f784030-5dfa-4f0d-b695-230152aef792")
+	)
+	(wire
+		(pts
+			(xy 222.25 85.09) (xy 217.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1282e725-a7f1-49f1-9883-2e8c31b8d047")
 	)
 	(wire
 		(pts
@@ -1388,17 +1684,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 104.14) (xy 182.88 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3aff4b1b-42c1-4348-9db0-06b39e7ec025")
-	)
-	(wire
-		(pts
-			(xy 208.28 85.09) (xy 208.28 93.98)
+			(xy 208.28 82.55) (xy 208.28 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1415,26 +1701,6 @@
 			(type default)
 		)
 		(uuid "3ccf6e1e-dad4-476d-bd29-ac99b37b9f7e")
-	)
-	(wire
-		(pts
-			(xy 77.47 91.44) (xy 118.11 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3eb0c284-4818-4bab-847c-d5d119fdcfdd")
-	)
-	(wire
-		(pts
-			(xy 222.25 80.01) (xy 132.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41d5196f-24e7-46e3-8126-5a2c48888bd3")
 	)
 	(wire
 		(pts
@@ -1488,13 +1754,13 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 88.9) (xy 86.36 88.9)
+			(xy 217.17 85.09) (xy 217.17 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ce010f6-22b8-4546-a342-331e09ab31df")
+		(uuid "5e84ad2f-1d42-4c73-8d68-b8ce8199b769")
 	)
 	(wire
 		(pts
@@ -1508,26 +1774,6 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 116.84) (xy 77.47 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cf8d7eb-b431-4b07-aea5-0006d87717f7")
-	)
-	(wire
-		(pts
-			(xy 77.47 93.98) (xy 92.71 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "739191d5-cc64-4492-b6d5-1487b12d0e1d")
-	)
-	(wire
-		(pts
 			(xy 186.69 116.84) (xy 130.81 116.84)
 		)
 		(stroke
@@ -1535,6 +1781,16 @@
 			(type default)
 		)
 		(uuid "7b4df6de-2400-4fbb-ac2a-62db193e195d")
+	)
+	(wire
+		(pts
+			(xy 36.83 82.55) (xy 46.99 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "865f5f4d-3f57-4525-a056-8374c28be999")
 	)
 	(wire
 		(pts
@@ -1548,13 +1804,23 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 96.52) (xy 77.47 96.52)
+			(xy 217.17 80.01) (xy 222.25 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eb29533-2f78-4588-bf4e-059a2a69c53a")
+		(uuid "8c93a2d6-46a6-420f-b674-fbe8577083d2")
+	)
+	(wire
+		(pts
+			(xy 46.99 82.55) (xy 46.99 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93eacbf3-917c-40e5-9b60-d08d1f3afecd")
 	)
 	(wire
 		(pts
@@ -1568,16 +1834,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "969c229f-84ec-4440-894a-52d3cf2ecda8")
-	)
-	(wire
-		(pts
 			(xy 118.11 99.06) (xy 118.11 101.6)
 		)
 		(stroke
@@ -1588,13 +1844,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 85.09) (xy 208.28 85.09)
+			(xy 67.31 116.84) (xy 92.71 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a2ed1c27-5712-4bbe-8907-6b9e46a9b5b0")
+		(uuid "a73074fd-e754-48b5-b3f7-d4bfc794d6d9")
+	)
+	(wire
+		(pts
+			(xy 36.83 80.01) (xy 46.99 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac794a7f-54e6-418e-99b7-df28ea3bf125")
 	)
 	(wire
 		(pts
@@ -1608,13 +1874,23 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 116.84) (xy 77.47 116.84)
+			(xy 222.25 82.55) (xy 208.28 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c425c846-b5da-4f48-8932-da8b5bba1986")
+		(uuid "c03e9e36-f9b4-4c47-b958-545017351c16")
+	)
+	(wire
+		(pts
+			(xy 92.71 80.01) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4390ffc-09af-4def-a007-ab54691cbbfa")
 	)
 	(wire
 		(pts
@@ -1638,16 +1914,6 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 93.98) (xy 92.71 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c9ecb802-21a1-4b02-b2d9-3289989cd499")
-	)
-	(wire
-		(pts
 			(xy 214.63 110.49) (xy 184.15 110.49)
 		)
 		(stroke
@@ -1655,6 +1921,16 @@
 			(type default)
 		)
 		(uuid "ca422533-4912-4fac-bc4d-338ef7f63117")
+	)
+	(wire
+		(pts
+			(xy 67.31 80.01) (xy 92.71 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb3caba8-ee37-440c-8618-6f874b109add")
 	)
 	(wire
 		(pts
@@ -1678,13 +1954,13 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 88.9) (xy 86.36 96.52)
+			(xy 67.31 85.09) (xy 67.31 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d592746f-ffff-4016-8ca1-b1d6a8ada90b")
+		(uuid "d5b30c57-f0eb-44a1-8875-4d99bc0fe47e")
 	)
 	(wire
 		(pts
@@ -1698,13 +1974,13 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 82.55) (xy 222.25 82.55)
+			(xy 92.71 80.01) (xy 92.71 104.14)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e14dc311-66a3-44aa-91f2-86158c1a842d")
+		(uuid "dfb778ff-7b35-417b-8e9d-dcfea4ac6e78")
 	)
 	(wire
 		(pts
@@ -1748,16 +2024,6 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 91.44) (xy 118.11 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe3acf0b-9993-4ff2-944f-5cd15296eb81")
-	)
-	(wire
-		(pts
 			(xy 184.15 110.49) (xy 184.15 101.6)
 		)
 		(stroke
@@ -1767,7 +2033,7 @@
 		(uuid "ffd620cc-099d-4950-ae9c-b31145f28e6d")
 	)
 	(label "GND"
-		(at 77.47 105.41 0)
+		(at 67.31 105.41 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2299,79 +2565,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
-		(at 72.39 93.98 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "00000000-0000-0000-0000-000061aef3d9")
-		(property "Reference" "J1"
-			(at 74.4728 85.5218 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04"
-			(at 74.4728 85.4964 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_4-G-5.08_1x04_P5.08mm_Vertical"
-			(at 72.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 72.39 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e43bc086-7c14-4273-95e3-d03ea37f762b")
-		)
-		(pin "2"
-			(uuid "2db3742f-3e9b-4bd1-a088-959d177bb8fe")
-		)
-		(pin "3"
-			(uuid "5a830ea6-d817-4d2d-b3dd-4ddc076cb0c0")
-		)
-		(pin "4"
-			(uuid "b6bcdba9-fcef-4b42-95d1-9a6c4270a277")
-		)
-		(instances
-			(project "TasmotaGenericPCB"
-				(path "/e527151a-f266-49f9-aebd-640489ef4648"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 138.43 111.76 0)
 		(unit 1)
@@ -2572,6 +2765,148 @@
 			(project "TasmotaGenericPCB"
 				(path "/e527151a-f266-49f9-aebd-640489ef4648"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Converter_ACDC:IRM-10-12")
+		(at 57.15 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4c4c1579-2467-4242-94c0-e95e5fd6e228")
+		(property "Reference" "PS1"
+			(at 57.15 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "IRM-10-12"
+			(at 57.15 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Converter_ACDC:Converter_ACDC_MeanWell_IRM-10-xx_THT"
+			(at 57.15 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.meanwell.com/Upload/PDF/IRM-10/IRM-10-SPEC.PDF"
+			(at 57.15 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "12V, 850mA, 10.2W, Isolated, AC-DC, 222A(IRM10)"
+			(at 57.15 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "6257e4d3-d9ab-4043-97cb-99c7df995208")
+		)
+		(pin "1"
+			(uuid "b0302775-de54-472f-9295-0a0cb9466a0c")
+		)
+		(pin "2"
+			(uuid "f5e06d00-5506-4b4d-a6bd-8301e5fdd58e")
+		)
+		(pin "3"
+			(uuid "26140809-cad6-4e40-9734-38b8b9b1c368")
+		)
+		(instances
+			(project ""
+				(path "/e527151a-f266-49f9-aebd-640489ef4648"
+					(reference "PS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 31.75 82.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56717e46-4992-4ace-ba45-914a448b908d")
+		(property "Reference" "J1"
+			(at 31.75 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 31.75 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Phoenix_MC_HighVoltage:PhoenixContact_MCV_1,5_2-G-5.08_1x02_P5.08mm_Vertical"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 31.75 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76e24049-ffd7-4585-aff7-7e96c6984f36")
+		)
+		(pin "2"
+			(uuid "37fd9516-887f-4210-93f0-74a4eaedfafc")
+		)
+		(instances
+			(project ""
+				(path "/e527151a-f266-49f9-aebd-640489ef4648"
+					(reference "J1")
 					(unit 1)
 				)
 			)
